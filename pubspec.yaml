@@ -44,6 +44,10 @@ dev_dependencies:
   flutter_native_splash: ^2.2.0
   flutter_test:
     sdk: flutter
+flutter_native_splash:
+  image: assets/WhatsApp Image 2022-10-11 at 2.58.25 PM.png
+  color: "#1F2C34"
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

@@ -47,7 +47,7 @@ class ListViewWidget extends StatelessWidget {
                       child: Column(
                         children: [
                           Directionality(
-                              textDirection: TextDirection.rtl,
+                              textDirection: TextDirection.ltr,
                               child: Text(
                                 newsList[index].title,
                                 style: TextStyle(
@@ -55,7 +55,7 @@ class ListViewWidget extends StatelessWidget {
                                     color: Colors.white),
                               )),
                           Directionality(
-                              textDirection: TextDirection.rtl,
+                              textDirection: TextDirection.ltr,
                               child: Text(
                                 newsList[index].description??"",
                                 style: TextStyle(
